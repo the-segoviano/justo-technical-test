@@ -9,19 +9,47 @@
 /* Begin PBXBuildFile section */
 		5EABD05223DB90EB003EADE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD05123DB90EB003EADE8 /* AppDelegate.swift */; };
 		5EABD05423DB90EB003EADE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD05323DB90EB003EADE8 /* SceneDelegate.swift */; };
-		5EABD05623DB90EB003EADE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD05523DB90EB003EADE8 /* ViewController.swift */; };
+		5EABD05623DB90EB003EADE8 /* ListRandomUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD05523DB90EB003EADE8 /* ListRandomUserViewController.swift */; };
 		5EABD05B23DB90EE003EADE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EABD05A23DB90EE003EADE8 /* Assets.xcassets */; };
 		5EABD05E23DB90EE003EADE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EABD05C23DB90EE003EADE8 /* LaunchScreen.storyboard */; };
+		5EABD06923DCF295003EADE8 /* ProfileRandomUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD06823DCF295003EADE8 /* ProfileRandomUserViewController.swift */; };
+		5EABD06B23DCF99F003EADE8 /* RandomUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD06A23DCF99F003EADE8 /* RandomUserCell.swift */; };
+		5EABD06D23DCFB61003EADE8 /* Extension+UIVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD06C23DCFB61003EADE8 /* Extension+UIVIew.swift */; };
+		5EABD07323DCFC75003EADE8 /* RandomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07223DCFC75003EADE8 /* RandomUser.swift */; };
+		5EABD07523DD1887003EADE8 /* RandomUserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07423DD1887003EADE8 /* RandomUserName.swift */; };
+		5EABD07723DD18A0003EADE8 /* RandomUserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07623DD18A0003EADE8 /* RandomUserLocation.swift */; };
+		5EABD07923DD18BA003EADE8 /* RandomUserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07823DD18BA003EADE8 /* RandomUserLogin.swift */; };
+		5EABD07B23DD18D4003EADE8 /* RandomUserDOB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07A23DD18D4003EADE8 /* RandomUserDOB.swift */; };
+		5EABD07D23DD18E8003EADE8 /* RandomUserRegistered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07C23DD18E8003EADE8 /* RandomUserRegistered.swift */; };
+		5EABD07F23DD18FF003EADE8 /* RandomUserID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD07E23DD18FF003EADE8 /* RandomUserID.swift */; };
+		5EABD08123DD1917003EADE8 /* RandomUserPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD08023DD1917003EADE8 /* RandomUserPicture.swift */; };
+		5EABD08323DD3E7F003EADE8 /* Extension+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD08223DD3E7F003EADE8 /* Extension+UIImageView.swift */; };
+		5EABD08523DD8C98003EADE8 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD08423DD8C98003EADE8 /* AvatarCell.swift */; };
+		5EABD08723DD8CBB003EADE8 /* CustomUserLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EABD08623DD8CBB003EADE8 /* CustomUserLocationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5EABD04E23DB90EB003EADE8 /* Justo Technical Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Justo Technical Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EABD05123DB90EB003EADE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EABD05323DB90EB003EADE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5EABD05523DB90EB003EADE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5EABD05523DB90EB003EADE8 /* ListRandomUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRandomUserViewController.swift; sourceTree = "<group>"; };
 		5EABD05A23DB90EE003EADE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EABD05D23DB90EE003EADE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EABD05F23DB90EE003EADE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EABD06823DCF295003EADE8 /* ProfileRandomUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRandomUserViewController.swift; sourceTree = "<group>"; };
+		5EABD06A23DCF99F003EADE8 /* RandomUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserCell.swift; sourceTree = "<group>"; };
+		5EABD06C23DCFB61003EADE8 /* Extension+UIVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIVIew.swift"; sourceTree = "<group>"; };
+		5EABD07223DCFC75003EADE8 /* RandomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUser.swift; sourceTree = "<group>"; };
+		5EABD07423DD1887003EADE8 /* RandomUserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserName.swift; sourceTree = "<group>"; };
+		5EABD07623DD18A0003EADE8 /* RandomUserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserLocation.swift; sourceTree = "<group>"; };
+		5EABD07823DD18BA003EADE8 /* RandomUserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserLogin.swift; sourceTree = "<group>"; };
+		5EABD07A23DD18D4003EADE8 /* RandomUserDOB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserDOB.swift; sourceTree = "<group>"; };
+		5EABD07C23DD18E8003EADE8 /* RandomUserRegistered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserRegistered.swift; sourceTree = "<group>"; };
+		5EABD07E23DD18FF003EADE8 /* RandomUserID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserID.swift; sourceTree = "<group>"; };
+		5EABD08023DD1917003EADE8 /* RandomUserPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserPicture.swift; sourceTree = "<group>"; };
+		5EABD08223DD3E7F003EADE8 /* Extension+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImageView.swift"; sourceTree = "<group>"; };
+		5EABD08423DD8C98003EADE8 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		5EABD08623DD8CBB003EADE8 /* CustomUserLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUserLocationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +83,13 @@
 			isa = PBXGroup;
 			children = (
 				5EABD06523DB9302003EADE8 /* Supporting Files */,
-				5EABD05523DB90EB003EADE8 /* ViewController.swift */,
+				5EABD07023DCFBA4003EADE8 /* Extensions */,
+				5EABD07123DCFBCB003EADE8 /* Models */,
+				5EABD05523DB90EB003EADE8 /* ListRandomUserViewController.swift */,
+				5EABD06A23DCF99F003EADE8 /* RandomUserCell.swift */,
+				5EABD06823DCF295003EADE8 /* ProfileRandomUserViewController.swift */,
+				5EABD08423DD8C98003EADE8 /* AvatarCell.swift */,
+				5EABD08623DD8CBB003EADE8 /* CustomUserLocationCell.swift */,
 			);
 			path = "Justo Technical Test";
 			sourceTree = "<group>";
@@ -70,6 +104,30 @@
 				5EABD05F23DB90EE003EADE8 /* Info.plist */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EABD07023DCFBA4003EADE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5EABD06C23DCFB61003EADE8 /* Extension+UIVIew.swift */,
+				5EABD08223DD3E7F003EADE8 /* Extension+UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5EABD07123DCFBCB003EADE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EABD07223DCFC75003EADE8 /* RandomUser.swift */,
+				5EABD07423DD1887003EADE8 /* RandomUserName.swift */,
+				5EABD07623DD18A0003EADE8 /* RandomUserLocation.swift */,
+				5EABD07823DD18BA003EADE8 /* RandomUserLogin.swift */,
+				5EABD07A23DD18D4003EADE8 /* RandomUserDOB.swift */,
+				5EABD07C23DD18E8003EADE8 /* RandomUserRegistered.swift */,
+				5EABD07E23DD18FF003EADE8 /* RandomUserID.swift */,
+				5EABD08023DD1917003EADE8 /* RandomUserPicture.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +200,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EABD05623DB90EB003EADE8 /* ViewController.swift in Sources */,
+				5EABD07723DD18A0003EADE8 /* RandomUserLocation.swift in Sources */,
+				5EABD06B23DCF99F003EADE8 /* RandomUserCell.swift in Sources */,
+				5EABD06923DCF295003EADE8 /* ProfileRandomUserViewController.swift in Sources */,
+				5EABD08123DD1917003EADE8 /* RandomUserPicture.swift in Sources */,
+				5EABD07923DD18BA003EADE8 /* RandomUserLogin.swift in Sources */,
+				5EABD06D23DCFB61003EADE8 /* Extension+UIVIew.swift in Sources */,
+				5EABD07323DCFC75003EADE8 /* RandomUser.swift in Sources */,
+				5EABD07B23DD18D4003EADE8 /* RandomUserDOB.swift in Sources */,
+				5EABD05623DB90EB003EADE8 /* ListRandomUserViewController.swift in Sources */,
+				5EABD08323DD3E7F003EADE8 /* Extension+UIImageView.swift in Sources */,
+				5EABD08523DD8C98003EADE8 /* AvatarCell.swift in Sources */,
+				5EABD07D23DD18E8003EADE8 /* RandomUserRegistered.swift in Sources */,
+				5EABD07F23DD18FF003EADE8 /* RandomUserID.swift in Sources */,
+				5EABD07523DD1887003EADE8 /* RandomUserName.swift in Sources */,
 				5EABD05223DB90EB003EADE8 /* AppDelegate.swift in Sources */,
+				5EABD08723DD8CBB003EADE8 /* CustomUserLocationCell.swift in Sources */,
 				5EABD05423DB90EB003EADE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
