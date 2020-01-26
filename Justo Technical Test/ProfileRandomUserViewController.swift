@@ -81,7 +81,7 @@ extension ProfileRandomUserViewController {
                 cell.selectionStyle = .none
                 cell.textLabel?.numberOfLines = 0
                 cell.textLabel?.font = UIFont.init(name: (cell.textLabel?.font.familyName)!, size: 32)
-                cell.textLabel?.text = "Hi, here you are a Snapshoot from my country(\(flag(from: nat))). Sometimes appears in middle of the sea or in middle of Arctic."
+                cell.textLabel?.text = "Hi, here you are a Map-Snap-shotter from my country(\(flag(from: nat))). Sometimes appears in middle of the sea or in middle of Arctic."
             }
             return cell
         }
@@ -118,7 +118,6 @@ extension ProfileRandomUserViewController {
             return cell
         }
         
-        
         if section == "email" {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             cell.imageView?.contentMode = .scaleAspectFit
@@ -130,7 +129,6 @@ extension ProfileRandomUserViewController {
             cell.setNeedsLayout()
             return cell
         }
-        
         
         return UITableViewCell()
     }
